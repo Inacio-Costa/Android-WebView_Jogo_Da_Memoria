@@ -1,0 +1,118 @@
+/*Layout maior que 500px. horizontal
+Após o not é preciso informar a abrangência da media query*/
+@media not all and (max-width: 500px){
+	.funcoes {
+		position: fixed;
+		height: 18vh;
+		width: 55vw;
+		margin: 0vh 42vw 82vh 3vw;
+		/*background: rgba(255,0,0, .5);*/
+	}
+
+	.jogo{
+		position: fixed;
+		height: 70vh;
+		width: 94vw;
+		margin: 18vh 3vw 12vh 3vw;
+		/*background: rgba(0,255,0, .5);*/
+	}
+	
+	.textoXP{
+		margin: 0vh 22vw 0vh 55vw;
+		padding: 4vh 2vw 4vh 0vw;
+		position: fixed;		
+		width: 18vw;
+		height: 18vh;
+		font-size:40px;
+		text-align: right;
+		/*background: yellow;*/
+	}
+
+	#numeroPontos{
+		margin: 0vh 12vw 0vh 72vw;
+		padding: 4vh 0vw 4vh 0vw;
+		position: fixed;		
+		width: 22vw;
+		height: 18vh;
+		font-size:40px;
+		text-align: left;
+		/*background: gray;*/
+	}
+	
+	.reiniciar {
+		position: fixed;	
+		border-radius: 8px;
+		width: 16vw;
+	  	margin: 6vh 78vw 4vh 0vw;
+		background-color: #ddd;
+	}
+
+	.placar {
+		position: fixed;
+		border-radius: 8px;
+		width: 16vw;
+		margin: 6vh 75vw 4vh 19vw;
+		background-color: #ddd;
+	}
+
+/*Início - Barra de Progresso*/
+	.barra_progresso_container{
+		margin: 88vh 3vw 0vh 19vw;
+		padding: 3vh 0vw 0vh 0vw;
+		position: fixed;
+		width: 78vw;
+		height: 12vh;
+		/*background: green;*/
+	}
+	
+	.textoProgresso{
+		margin: 88vh 77vw 0vh 3vw;
+		position: fixed;
+		width: 16vw;
+		height: 12vh;
+		padding: 2vh 0vw 1vh 0vw;
+		/*background: yellow;*/
+	}
+	
+	.btn_1{
+		position: fixed;
+		margin: 0vh 1vw 35vh 0vw; 
+		width: 30vw;
+		height: 30vh;
+	}
+
+	.btn_2{
+		position: fixed;
+		margin: 35vh 1vw 0vh 0vw;
+		width: 30vw;
+		height: 30vh;
+	}
+
+	.btn_3{	
+		position: fixed;
+		margin: 0vh 1vw 35vh 32vw; 
+		width: 30vw;
+		height: 30vh;
+	}
+
+	.btn_4{	
+		position: fixed;
+		margin: 35vh 1vw 0vh 32vw;
+		width: 30vw;
+		height: 30vh;
+	}
+
+	.btn_5{	
+		position: fixed;
+		margin: 0vh 0vw 35vh 64vw;
+		width: 30vw;
+		height: 30vh;
+	}
+
+	.btn_6{	
+		position: fixed;
+		margin: 35vh 0vw 0vh 64vw;
+		width: 30vw;
+		height: 30vh;	
+	}
+}

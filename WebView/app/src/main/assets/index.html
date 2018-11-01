@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Jogo da Memória</title>
+	<meta charset="utf-8">
+	<!--<meta name="viewport" content="width=device-width">-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/estiloJogoDaMemoria.css">
+	<link rel="stylesheet" type="text/css" href="css/estiloJogoDaMemoria_vertical.css">
+	<link rel="stylesheet" type="text/css" href="css/estiloJogoDaMemoria_horizontal.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+</head>
+<body>
+	<div id="fundo_tela">
+		<div class="funcoes">
+			<button class="reiniciar button">Reiniciar</button>
+			<a href="placar.html"><button class="placar button">Placar</button></a>
+			<div class="textoXP">
+				XP:
+			</div>
+			<div id="numeroPontos">
+				1000
+			</div>
+		</div>
+
+		<div class="jogo">
+			<div class="btn_1"><button id="btn_1" class="button" onclick="botaoFunction(1)">1</button></div>
+
+			<div class="btn_2"><button id="btn_2" class="button" onclick="botaoFunction(2)">2</button></div>
+						
+			<div class="btn_3"><button id="btn_3" class="button" onclick="botaoFunction(3)">3</button></div>
+				
+			<div class="btn_4"><button id="btn_4" class="button" onclick="botaoFunction(4)">4</button></div>
+			
+			<div class="btn_5"><button id="btn_5" class="button" onclick="botaoFunction(5)">5</button></div>
+				
+			<div class="btn_6"><button id="btn_6" class="button" onclick="botaoFunction(6)">6</button></div>
+		</div>
+		<div class="textoProgresso" id="textoProgresso" >
+			Progresso:
+		</div>
+		<div class="barra_progresso_container" id="barra_progresso_container">
+			<div id="progressBar">
+				<div id="progresso"></div>
+				<div id="textoProgressBar"></div>
+			</div>
+	    </div>
+
+		<div class="conteiner_venceu" id="conteiner_venceu">
+			<div id="parabens">
+				Parabéns!
+			</div>
+			<div id="boa_memoria">
+				Você tem uma boa <br> memória!
+			</div>
+			<div class="registrar_jogador">
+				<button id="btn_registrarJogador" class="button" onclick="registrarJogadorFunction()">Registrar Jogador</button>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jogoDaMemoria.js"></script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+/* Layout de no máximo 499px vertical*/
+@media (max-width: 500px){
+	.funcoes {
+		position: fixed;
+		height: 10vh;
+		width: 48vw;
+		margin: 0vh 5vw 0vh 5vw;	
+		/*background: rgba(255,0,0, .5);*/
+	}
+
+	.jogo{
+		position: fixed;
+		height: 80vh;
+		width: 90vw;
+		margin: 10vh 5vw 10vh 5vw;
+		/*background: rgba(0,255,0, .5);*/
+	}
+
+	.textoXP{
+		margin: 0vh 29vw 0vh 48vw;
+		padding: 2vh 2vw 3vh 0vw;
+		position: fixed;		
+		width: 20vw;
+		height: 10vh;
+		text-align: right;
+		font-size:35px;
+		/*background: yellow;*/
+	}
+
+	#numeroPontos{
+		margin: 0vh 10vw 0vh 68vw;
+		padding: 2vh 0vw 3vh 0vw;
+		position: fixed;		
+		width: 22vw;
+		height: 10vh;
+		text-align: left;
+		font-size:35px;
+		/*background: gray;*/
+	}
+
+	.reiniciar {
+		position: fixed;	
+		border-radius: 15px;
+		width: 22vw;
+		height: 7vh;
+	  	margin: 1vh 73vw 2vh 0vw;
+		background-color: #ddd;
+	}
+
+	.placar {
+		position: fixed;
+		border-radius: 15px;
+		width: 22vw;
+		height: 7vh;
+		margin: 1vh 75vw 4vh 25vw;
+		background-color: #ddd;
+	}
+
+/*Início - Barra de Progresso*/
+	.barra_progresso_container{
+		margin: 90vh 5vw 1vh 31vw;
+		padding: 3vh 0vw 0vh 0vw;
+		position: fixed;
+		width: 64vw;
+		height: 10vh;
+		/*background: green;*/
+	}
+
+	.textoProgresso{
+		margin: 90vh 70vw 0vh 5vw;
+		position: fixed;
+		min-width: 26vw;
+		min-height: 10vh;
+		padding: 2.5vh 0vw 0vh 0vw;
+	}
+	
+	.btn_1{
+		float: left;
+		margin: 2vh 2vw 2vh 0vw; 
+		width: 43vw;
+		height: 23vh;
+	}
+
+	.btn_2{
+		float: right;	
+		margin: 2vh 0vw 2vh 2vw;
+		width: 43vw;
+		height: 23vh;
+	}
+
+	.btn_3{	
+		float: left;	
+		margin: 2vh 2vw 2vh 0vw; 
+		width: 43vw;
+		height: 23vh;
+	}
+
+	.btn_4{	
+		float: right;	
+		margin: 2vh 0vw 2vh 2vw;
+		width: 43vw;
+		height: 23vh;
+	}
+
+	.btn_5{	
+		float: left;	
+		margin: 2vh 2vw 2vh 0vw;
+		width: 43vw;
+		height: 23vh;
+	}
+
+	.btn_6{	
+		float: right;	
+		margin: 2vh 0vw 2vh 2vw;
+		width: 43vw;
+		height: 23vh;	
+	}
+}

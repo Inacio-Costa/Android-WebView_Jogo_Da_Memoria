@@ -1,0 +1,124 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	border-style: none;
+	font-size: 100%;
+
+	/*Basicamente esta regra diz que todos os elementos levarão em conta apenas a largura e altura determinada, sem somar a este valor a borda e o padding.*/
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+#fundo_tela{
+	width: 100vw;
+	height: 100vh;
+}
+
+.conteiner_venceu {
+    position: fixed;
+    height: 80vh;
+    width: 90vw;
+    margin: 10vh 5vw 10vh 5vw;
+    /*background: rgba(255,0,0, .5);*/
+}
+
+#parabens{
+    position: fixed;
+    height: 10vh;
+    width: 90vw;
+    margin: 15vh 0vw 50vh 0vw;
+    text-align:center;
+    color:#000;
+    font-size:50px;
+    font-weight: bold;
+    /*background: rgba(100,100,0, .5);*/
+}
+
+#boa_memoria{
+    position: fixed;
+    height: 20vh;
+    width: 90vw;
+    margin: 45vh 0vw 35vh 0vw;
+    text-align:center;
+    color:#000;
+    font-size:30px;
+    /*background: rgba(100,0,100, .5);*/
+}
+
+.registrar_jogador{
+    position: fixed;
+    height: 8vh;
+    width: 50vw;
+    margin: 75vh 0vw 50vh 20vw;
+    text-align:center;
+   /* background: rgba(160,0,100, .5);*/
+}
+
+#btn_registrarJogador{
+    padding: 1vh 3vw 1vh 3vw;
+}
+
+#progressBar{
+	width: 100%; 
+	height:16px; 
+	background: rgb(200,200,200); 
+	border:#000 2px solid;
+	border-radius: 10px;
+}
+
+#progressBar > #progresso{
+	position: relative; 
+	top:0px; 
+	background: red; 
+	width:0%; 
+	height:12px; 
+	color: #0FF; 
+	text-align:center;
+	border-radius: 10px;
+}
+
+#progressBar > #textoProgressBar{
+	position: relative; 
+	top:-17px; 
+	text-align:center; 
+	color:#FFF; 
+	padding: 4px; 
+	height:8px; 
+	font-size:12px;
+	font-weight: bold;
+}
+
+.button {
+	display: inline-block;	  
+	font-size: 1em;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #777;	  
+	background-color: #ddd;
+	border: none;	  
+	box-shadow: 0 9px #999;
+	border-radius: 15px;
+	padding: .8vh .8vw;
+}
+
+.button:hover {
+	background-color: #3e8e41;
+	color: #ddd;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#btn_1, #btn_2, #btn_3, #btn_4, #btn_5, #btn_6{
+	width: 100%;
+	height: 100%;
+	font-style: bold;
+	font-size: 3em;
+	border-radius: 20px;
+}

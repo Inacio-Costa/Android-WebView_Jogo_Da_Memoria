@@ -1,0 +1,76 @@
+.funcoes{
+    height: 10vh;
+    width: 96vw;
+    margin: 1vh 4vw 1vh 0vw;    
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+	/*background: rgba(0,255,0, .5);*/
+}
+
+.lista{
+    width: 96vw;
+	margin: 1vh 4vw 1vh 0vw;
+    /*background: rgba(0,0,255, .5);*/
+}
+
+.btn_voltar{
+    margin: 0vh 2vw 0vh 2vw;
+}
+.btn_apagar{
+    margin: 0vh 2vw 0vh 2vw;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+	background-color: #dddddd;
+    border: 1px solid #aaa;
+    text-align: center;
+    padding: 8px;
+	text-transform: uppercase;
+}
+
+td {
+    border: 1px solid #aaa;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.button {
+	  display: inline-block;
+	  padding: 1vh 1vw;
+	  font-size: 1em;
+	  cursor: pointer;
+	  text-align: center;
+	  text-decoration: none;
+	  outline: none;
+	  color: #777;
+	  /*background-color: #4CAF50;*/
+	  background-color: #ddd;
+	  border: none;
+	  border-radius: 10px;
+	  box-shadow: 0 9px #999;
+	}
+
+.button:hover {
+    background-color: #3e8e41;
+	color: #ddd;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
